@@ -4,18 +4,7 @@ const ayarlar = require('./ayarlar.json');
 const fs = require('fs');
 const moment = require('moment');
 require('./util/eventLoader')(client);
-
-
-
-
-
-
-
-
-
-
 var prefix = ayarlar.prefix;
-
 const log = message => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
 };
@@ -34,20 +23,6 @@ fs.readdir("./komutlar/", (err, files) => {
     });
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 client.reload = command => {
   return new Promise((resolve, reject) => {
     try {
@@ -96,11 +71,7 @@ client.unload = command => {
     }
   });
 };
-
 client.on('ready', () => {
-
-  // Oynuyor Kısmı
-  
       var actvs = [
         `${prefix}resim <yazı>`
     ];
@@ -120,8 +91,6 @@ client.on('ready', () => {
       console.log ('_________________________________________');
     
     });
-
-
 client.elevation = message => {
   if (!message.guild) {
     return;
