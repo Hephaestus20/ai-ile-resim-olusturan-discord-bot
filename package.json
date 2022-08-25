@@ -1,0 +1,37 @@
+{
+  "//1": "AI",
+
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "Glitch Discord Botu.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "deepai": "^1.0.21",
+    "discord.js": "^12.5.3",
+    "discordutility": "^0.2.6",
+    "dream-api": "^1.0.8",
+    "figlet": "^1.5.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "node-tesseract-ocr": "^2.2.1",
+    "regex": "^0.1.1",
+    "util": "^0.12.4"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
