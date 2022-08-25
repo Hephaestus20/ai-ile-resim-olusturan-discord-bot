@@ -50,7 +50,7 @@ exports.conf = {
 };
 
 exports.help = {  
-  name: 'kullanıcıbilgim',
-  description: 'Komutu kullanan kişi hakkında bilgi verir.',
-  usage: 'kullanıcıbilgim'
+  name: 'resim',
+  description: 'resim',
+  usage: 'resim'
 };
